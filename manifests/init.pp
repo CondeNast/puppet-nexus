@@ -76,6 +76,13 @@ class nexus (
     }
   }
 
+  file {
+    "${nexus_root}":
+      ensure => directory,
+      owner  => $nexus_user,
+      group  => $nexus_group;
+  }
+
   class{ 'nexus::package':
     version               => $version,
     revision              => $revision,
