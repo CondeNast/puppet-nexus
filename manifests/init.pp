@@ -88,6 +88,7 @@ class nexus (
     version               => $version,
     revision              => $revision,
     download_site         => $download_site,
+    nexus_type            => $nexus_type,
     nexus_root            => $nexus_root,
     nexus_home_dir        => $nexus_home_dir,
     nexus_user            => $nexus_user,
