@@ -113,6 +113,7 @@ class nexus (
     revision              => $revision,
     deploy_pro            => $deploy_pro,
     download_site         => $real_download_site,
+    nexus_type            => $nexus_type,
     nexus_root            => $nexus_root,
     nexus_home_dir        => $nexus_home_dir,
     nexus_user            => $nexus_user,
