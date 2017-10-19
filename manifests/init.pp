@@ -33,7 +33,7 @@ class nexus (
   $version               = $nexus::params::version,
   $revision              = $nexus::params::revision,
   $download_site         = $nexus::params::download_site,
-  $nexus_type            = $nexus::params::type,
+  $nexus_type            = $nexus::params::nexus_type,
   $nexus_root            = $nexus::params::nexus_root,
   $nexus_home_dir        = $nexus::params::nexus_home_dir,
   $nexus_work_dir        = undef,
