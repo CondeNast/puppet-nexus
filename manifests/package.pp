@@ -71,7 +71,6 @@ class nexus::package (
   wget::fetch{ $nexus_archive:
     source      => $download_url,
     destination => $dl_file,
-    source_hash => $md5sum,
     before      => Exec['nexus-untar'],
   }
 
